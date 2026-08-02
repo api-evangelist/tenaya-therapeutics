@@ -1,8 +1,26 @@
 aid: tenaya-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tenaya-therapeutics.png
 name: Tenaya Therapeutics *
-description: 'Tenaya Therapeutics * is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Tenaya Therapeutics is a clinical-stage biotechnology company headquartered
+  in South San Francisco, California, focused on discovering, designing, developing,
+  and delivering potentially curative gene therapies and precision medicines that
+  address the underlying drivers of heart disease. Its clinical pipeline includes TN-201,
+  an AAV-based gene therapy for MYBPC3-associated hypertrophic cardiomyopathy (HCM),
+  and TN-401 for PKP2-associated arrhythmogenic right ventricular cardiomyopathy (ARVC),
+  both in early clinical development. Publicly traded on Nasdaq as TNYA and backed
+  by investors including GV, the company operates as a therapeutics developer and publishes
+  no public developer platform or API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/tenaya-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Gene Therapy
+- Cardiovascular
+- Precision Medicine
+- Clinical Stage
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +47,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://tenayatherapeutics.com
+  url: https://www.tenayatherapeutics.com
+- type: Blog
+  url: https://investors.tenayatherapeutics.com/news-events/news-releases
+- type: Support
+  url: https://www.tenayatherapeutics.com/contact-us/
+- type: PrivacyPolicy
+  url: https://www.tenayatherapeutics.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.tenayatherapeutics.com/terms-of-use
+- type: DomainSecurity
+  url: security/tenaya-therapeutics-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
